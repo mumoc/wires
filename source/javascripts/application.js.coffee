@@ -1,2 +1,2 @@
 //= require jquery
-//= require easy
+//= require app
