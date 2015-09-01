@@ -7,3 +7,8 @@ gem 'middleman-minify-html'
 gem 'oj'
 gem 'susy'
 gem 'therubyracer'
+
+gem 'puma'
+gem 'rack-contrib'
+gem 'rack-ssl'
+gem 'rack-cache'

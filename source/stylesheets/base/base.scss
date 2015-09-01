@@ -2,16 +2,4 @@
 
 html {
   font: 10px normal Lato, sans-serif;
-
-  @include breakpoint($bpTabletMin) {
-    font-size: 12px;
-  }
-
-  @include breakpoint($bpDesktopMin) {
-    font-size: 14px;
-  }
-
-  @include breakpoint($bpHdMin) {
-    font-size: 16px;
-  }
 }
