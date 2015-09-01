@@ -1,8 +1,8 @@
-@import 'base/normalize';
+@import 'base/**/*';
 
 @import 'susy';
 @import 'breakpoint';
 
-//@import 'layout/**/*';
+@import 'layout/**/*';
 //@import 'modules/**/*';
 
