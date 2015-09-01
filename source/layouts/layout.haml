@@ -1,0 +1,12 @@
+!!! 5
+%html
+  %head
+    %title= current_page.data.title || 'Demo'
+    = render_partial 'partials/metas'
+    = stylesheet_link_tag 'application'
+
+  %body
+    = yield
+
+    = render_partial 'partials/javascripts'
+
