@@ -1,9 +1,10 @@
-// Breakpoint variables
-$bpTabletMin: 641px;
-$bpDesktopMin: 1025px;
-$bpHdMin: 1441px;
+$tablet: 640;
+$desktop: 1024;
+$hd: 1440;
 
-$bpTablet: (min-width 641px) (max-width 1024px);
-$bpDesktop: (min-width 1025px) (max-width 1440px);
-$bpHd: min-width $bpHdMin;
+// Breakpoint variables
+$bpTabletMin: ($tablet + 1) + 'px';
+$bpDesktopMin: ($desktop + 1) + 'px';
+$bpHdMin: ($hd + 1) + 'px';
+
 
