@@ -17,9 +17,9 @@ This project is intended to be a basic structure/config for creating quick, depl
 This includes 3 breakpoints:
 
 ```
-$tablet: 640;
-$desktop: 1024;
-$hd: 1440;
+$small: 640;
+$medium: 1024;
+$large: 1440;
 ```
 
 and sets a `.container` of: `95%`, it can be changed quickly by adding more breakpoints at `stylesheets/layout/_grid.scss`
@@ -28,7 +28,7 @@ and sets a `.container` of: `95%`, it can be changed quickly by adding more brea
 ```
 .container {
   @include container(95%);
-  @include breakpoint($bpTabletMin) {
+  @include breakpoint($medium) {
     @include container(700px);
   }
 }
