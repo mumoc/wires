@@ -1,8 +1,34 @@
-@import 'susy';
-@import 'breakpoint';
+@charset 'UTF-8';
 
-@import 'base/**/*';
+// 1. Vendors
+@import
+  'vendor/normalize',
+  'susy',
+  'breakpoint';
 
-@import 'layout/**/*';
-//@import 'modules/**/*';
+// 2. Configuration and helpers
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
 
+// 3. Base stuff
+@import
+  'base/base',
+  'base/grid';
+
+// 4. Layout-related sections
+@import
+  'layout/header';
+
+// 5. Components
+@import
+  'components/buttons';
+
+// 6. Page-specific styles
+@import
+  'pages/index';
+
+// 7. Themes
+@import
+  'themes/default';
