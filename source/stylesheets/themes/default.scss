@@ -1,0 +1,12 @@
+@import '../utils/colors';
+
+// Menu
+$menuBackground: $white !default;
+$menuHeaderBackground: $lightBlue !default;
+$menuHeaderColor: $white !default;
+
+// Category Nav
+$categoryNavBackground: $white !default;
+$categoryNavActiveTab: $red !default;
+
+@import '../application';

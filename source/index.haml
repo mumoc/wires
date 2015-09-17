@@ -1,6 +1,52 @@
 ---
-title: 'Waka: Index'
+title: 'Such Restaurant'
 ---
 
-.container
-  %h1 Waka
+%header.container
+  .header-burger
+    %span
+    %span
+    %span
+  %a.header-logo{ href: '/', title: 'Home' }
+    %img{ src: '', alt: 'Such Restaurant Logo' }
+  %a.header-cart{ href: '/cart', title: 'Show Cart' }
+    2
+
+%nav.container
+  %ul.category-nav
+    %li.category-nav__tab.active
+      %a{ href: '#main-menu' } Main Menu
+    %li.category-nav__tab
+      %a{ href: '#breakfast' } Breakfast
+    %li.category-nav__tab
+      %a{ href: '#drinks' } Drinks
+
+%main.container
+  %section.menu
+    %h1.menu__header Chicken Entrees
+    %article.menu__item
+      %header
+        %i.menu__item-badge VG
+        %hgroup.menu__item-info
+          %h2 Chicken Madeira
+          %h3 $9.95
+
+    %article.menu__item
+      %header
+        %i.menu__item-badge VG
+        %hgroup.menu__item-info
+          %h2 Chicken Piccata
+          %h3 $16.99
+
+
+  %section.menu
+    %h1.menu__header Veal Entrees
+    %article.menu__item
+      %header
+        %i.menu__item-badge VG
+        %hgroup.menu__item-info
+          %h2 Veal Scaloppini
+          %h3 $9.95
+
+%footer.container
+

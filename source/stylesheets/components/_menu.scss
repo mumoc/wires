@@ -1,0 +1,41 @@
+.menu {
+  background-color: $menuBackground;
+  margin: 10px 0;
+
+  @include breakpoint($medium) {
+    @include span(6);
+  }
+
+  @include breakpoint($large) {
+    @include span(4);
+  }
+}
+
+.menu__header {
+  @include border-radius(5px 5px 0px 0px);
+
+  background-color: $menuHeaderBackground;
+  color: $menuHeaderColor;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.menu__item {
+  padding: 10px 0;
+}
+
+.menu__item-badge {
+  @include border-radius(50%);
+
+  background-color: $menuHeaderBackground;
+  color: $menuHeaderColor;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.menu__item-info {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}

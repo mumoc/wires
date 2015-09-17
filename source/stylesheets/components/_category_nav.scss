@@ -1,0 +1,22 @@
+.category-nav {
+  padding: 0;
+  list-style-type: none;
+  background: $categoryNavBackground;
+}
+
+.category-nav__tab {
+  @include span(3);
+
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+
+  &.active {
+    border-bottom: 2px solid $categoryNavActiveTab;
+  }
+
+  @include breakpoint($medium) {
+    @include span(2);
+  }
+}
+

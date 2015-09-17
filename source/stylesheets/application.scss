@@ -23,12 +23,10 @@
 
 // 5. Components
 @import
-  'components/buttons';
+  'components/category_nav',
+  'components/menu';
 
 // 6. Page-specific styles
 @import
   'pages/index';
 
-// 7. Themes
-@import
-  'themes/default';
